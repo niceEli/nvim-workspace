@@ -1,0 +1,24 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e4f904068d9690d09f0ef34b784822246ecee59756a895df74e70190f0abf12c
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ccc2e959ef2d4cf0a8092843bb7a381fbe4192e5c6b0eb9a9071cab88bdf79b5
+Status: install ok installed
+
+Package: fmt
+Version: 10.2.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 764a24ffd9d4cbf46473c41da9b6e0802b0c31fd17ff782ad0abcf4e28400fa5
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: install ok installed
+
